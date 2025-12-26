@@ -26,6 +26,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
+~~~
 index.html
 
 {% load static %}
@@ -379,6 +380,7 @@ urlpatterns = [
     path('admin/',views.admin ,name='admin'),
     path('about/',views.about ,name='about'),
 ]
+~~~
 # OUTPUT:
 <img width="1016" height="571" alt="image" src="https://github.com/user-attachments/assets/1c37b42e-5861-4cbf-8090-2688b710642a" />
 <img width="1020" height="574" alt="image" src="https://github.com/user-attachments/assets/ac6eef81-32fd-4e61-a1a2-478645466b24" />
